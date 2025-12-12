@@ -80,5 +80,10 @@ footer {
     margin-bottom: 10px;
 }
 
+#miku-pose {
+    grid-column: 1 / 2;
+    grid-row: 2 / 6;
+}
+
 
 /* CSS Teto */
