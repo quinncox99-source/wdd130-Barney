@@ -5,3 +5,96 @@
     --c4-Accent2: #A0D2DB;
 }
 
+/* CSS General */
+
+nav {
+
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+
+/* CSS Miku */
+
+#miku-body {
+    background-color: var(--c4-Accent2);
+
+}
+
+#miku-main {
+    display: grid;
+    background-color: var(--c1-Primary);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+#miku-general {
+    background-color: var(--c2-Secondary);
+    height: 200px;
+    grid-row: 1 / 6;
+    height: 700px;
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#miku-song1{
+    width: auto;
+    height: auto;
+    background-color: var(--c2-Secondary);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#miku-song2{
+    width: auto;
+    height: auto;
+    background-color: var(--c2-Secondary);
+    margin-right: 10px;
+}
+
+#miku-song3{
+    width: auto;
+    height: auto;
+    background-color: var(--c2-Secondary);
+    margin-right: 10px;
+}
+
+#miku-song4{
+    width: auto;
+    height: auto;
+    background-color: var(--c2-Secondary);
+    margin-right: 10px;
+}
+
+#miku-song5{
+    width: auto;
+    height: auto;
+    background-color: var(--c2-Secondary);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#miku-pose {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: 100%;
+    height: 100%;
+}
+
+#miku-pose img {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* CSS Teto */
