@@ -6,13 +6,44 @@
 }
 
 /* CSS General */
-
-nav {
+.grid{
 
 }
+body{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+    background-color: #30323D;
+  text-align: center;
+  margin:auto;
+
+  
+  
+}
+.container{
+    width: 139.5vh;
+    height: 100vh;
+
+    background-color: #30323D;
+   margin-left:auto;
+}
+
+.miku-box{
+    height: auto;
+    background-color: #A0D2DB;
+  width: 31vh;
+}
+
+.teto-box{
+    height: auto;
+    background-color: #BD6B73;
+margin-right: auto;
+  width: 31vh;
+}
+
 
 header {
-
+width:auto;
+background-color: #4D5061;
 }
 
 footer {
