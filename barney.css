@@ -6,9 +6,7 @@
 }
 
 /* CSS General */
-.grid{
 
-}
 body{
     display: grid;
   grid-template-columns: auto auto auto auto;
@@ -24,14 +22,14 @@ body{
     height: 100vh;
 
     background-color: #30323D;
-   margin-left:auto;
+   margin:auto;
 }
 
 .miku-box{
     height: auto;
     background-color: #A0D2DB;
-  width: 31vh;
-    margin-right:auto;
+  width: 30vh;
+  margin-left: auto;
 }
 
 .teto-box{
@@ -45,7 +43,10 @@ margin-right: auto;
 header {
 width:auto;
 background-color: #4D5061;
+
+float: right;
 }
+.links{}
 
 footer {
 
